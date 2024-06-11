@@ -17,7 +17,7 @@ const Summary = () => {
             toast.success("Payment completed.")
             removeAll()
         }
-
+        
         if(searchParams.get("cancelled")){
             toast.error("Something went wrong.")
         }
@@ -29,7 +29,7 @@ const Summary = () => {
 
     const onCheckout=async()=>{
         const response=await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/checkout`,{
-            productId:items.map((item)=>item.id)
+            productIds:items.map((item)=>item.id)
         })
 
         window.location=response.data.url
@@ -46,7 +46,7 @@ const Summary = () => {
           <Currency value={totalPrice}/>
         </div>
       </div>
-      <Button className="w-full mt-6">
+      <Button className="w-full mt-6" onClick={onCheckout}>
         Checkout
       </Button>
     </div>
