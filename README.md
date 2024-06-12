@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# CMS Platform ( CUSTOMER ) :
 
-## Getting Started
+Note: Hosted Link https://cms-platform-nu.vercel.app/
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Description
+  
+  1. Customer can purchase the products
+  
+  2. Customer can filter the products based on colors and sizes
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+  3. Customer can Add To Cart Product
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+  4. Customer can do online payment using Stripe 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## A Quick Demo of the platform
+  1. Men's Section For Customer
+  
+  ![Screenshot from 2024-06-12 08-18-29](https://github.com/Sanskar-12/CMS_Platform_Customer/assets/114936864/8db65574-16c3-48a5-b2f0-78637549d580)
 
-## Learn More
+  2. Product Items Section
+  
+  ![Screenshot from 2024-06-12 08-18-57](https://github.com/Sanskar-12/CMS_Platform_Customer/assets/114936864/c32dc6b0-34d3-40d3-b695-c059b1feba00)
 
-To learn more about Next.js, take a look at the following resources:
+  3. Women's Section
+     
+  ![Screenshot from 2024-06-12 08-19-19](https://github.com/Sanskar-12/CMS_Platform_Customer/assets/114936864/2688dc94-dff4-482e-8f9d-dcafe508bb6b)   
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+  5. Filter the products
+  
+  ![Screenshot from 2024-06-12 08-19-42](https://github.com/Sanskar-12/CMS_Platform_Customer/assets/114936864/eb6af953-111a-4de0-bb28-17c6d5c96c8f)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+  5. Product Card Section
 
-## Deploy on Vercel
+  ![Screenshot from 2024-06-12 07-37-57](https://github.com/Sanskar-12/CMS_Platform/assets/114936864/de1f906e-e78d-415c-82a4-7b533160f7ba)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+  6. Cart Section
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+  ![Screenshot from 2024-06-12 08-20-16](https://github.com/Sanskar-12/CMS_Platform_Customer/assets/114936864/835694ce-0ac2-4b9a-aca2-659e52d25ce1)
+
+  8. Stripe Payment Section
+
+  ![Screenshot from 2024-06-12 08-21-42](https://github.com/Sanskar-12/CMS_Platform_Customer/assets/114936864/cd462d69-0714-4788-a592-1fab55f6ed2c)
+
+      
+---
+
+# To clone the repository, use the following command:
+
+1. ```bash
+    git clone https://github.com/Sanskar-12/CMS_Platform.git
+    ```
+
+2. Set up the environment variables using **.env.example** in the files.
+
+3. ```bash
+    npm i
+    ```
+
+4. ```bash
+    npm run dev
+    ```
+
+
+
+
+
+
+
+
+
+
+
+  
+
+     
