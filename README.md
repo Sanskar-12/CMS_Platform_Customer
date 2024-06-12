@@ -1,6 +1,6 @@
 # CMS Platform ( CUSTOMER ) :
 
-Note: Hosted Link https://cms-platform-nu.vercel.app/
+Note: Hosted Link https://cms-platform-customer.vercel.app
 
 ---
 
@@ -49,7 +49,7 @@ Note: Hosted Link https://cms-platform-nu.vercel.app/
 # To clone the repository, use the following command:
 
 1. ```bash
-    git clone https://github.com/Sanskar-12/CMS_Platform.git
+    git clone https://github.com/Sanskar-12/CMS_Platform_Customer.git
     ```
 
 2. Set up the environment variables using **.env.example** in the files.
